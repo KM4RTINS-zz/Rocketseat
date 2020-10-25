@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,700; 1,400 & display = swap';
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    font-family:'Roboto', sans-serif;
+}
+
+:root {
+    --color-roser: #FBDFDB;
+    --color-rodape: #EEEEEE;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.home-page h2 {
+    margin-top: 50px;
+}
+
+.home-page {
+    width: 940px;
+    height: 1009px;
+    margin: 0px auto;
+}
+
+.home-page header {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.home-page header img {
+    margin-right: 122px;
+}
+
+.home-page header a {
+    margin-right: 19px; 
+}
+
+.home-info {
+    width: 940px;
+    height: 366px;
+    background-color: var(--color-roser);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-info .info-content {
+    margin-top: 117px;
+    margin-left: 60px;
+}
+
+.home-info .info-content h1 {
+    font-size: 30px;
+    line-height: 36px;
+
+    margin-bottom: 10px;
+}
+
+.home-info .info-content p {
+    width: 316px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.home-info .info-img {
+    width: 216px;
+    height: 300px;
+    margin-top: 66px;
+    margin-right: 100px;
+}
+
+.cards {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card .card-img {
+    width: 300;
+    height: 140px; 
+}
+
+.card .card-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card .card-info {
+    margin: 20px 0px 30px 0px;
+}
+
+.card .card-info h4 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.card .card-info p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+footer#rodape {
+    margin-top: 20px;
+    background-color: var(--color-rodape);
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+
