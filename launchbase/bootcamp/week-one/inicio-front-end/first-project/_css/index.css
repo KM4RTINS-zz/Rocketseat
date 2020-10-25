@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pangolin&display=swap';
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+:root {
+    --color-fundo: #282a36;
+    --color-green: #50fa7b;
+}
+
+body {
+    background: var(--color-fundo);
+    color: white;
+}
+
+body header {
+    padding: 32px;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #333;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    font-family: 'Fredericka the Great', cursive;
+
+    font-size: 18px;
+    line-height: 28px;
+
+    color: white;
+    text-decoration: none;
+
+    margin: 0 16px;
+}
+
+.links a:hover {
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+/* Apresentação */
+
+.wrapper {
+    padding: 32px 32px 0;
+    text-align: center;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    height: 300px;
+    margin-bottom: 32px;
+}
+
+.wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-family: 'Pangolin', cursive;
+}
+
+.wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Pangolin', cursive;
+    opacity: 0.7;
+}
+
+.wrapper h2 a {
+    color: var(--color-green);
+
+    text-decoration: none;
+}
+
+.wrapper p {
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'Fredericka the Great', cursive;
+
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+
+#links_sociais {
+    margin: 16px 0;
+}
+
+#links_sociais a {
+    border-bottom: 1px solid var(--color-green);
+}
